@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>my resume</title>
+</head>
+<body bgcolor="powderblue">
+<h1 align="centre">My resume/h1>
+<table>
+<tr><td><h3>
+Career objectives:</h3>To succeed in an environment of growth and excellence
+and earn a job which provides me job Satisfaction and self development and 
+help me achieve personal as well as organization goals.</td></tr>
+<tr><td>
+<h3>Qualification:</h3>
+<li> persuing BE in VSB engineering college with CGPA 8.35</li>
+<li> completed higher secondary in TNPL school with 92.1%</li>
+<li>completed 10 th in TNPL school with 95.2% </li>
+</ul>
+</td> 
+</tr>
+<tr><td><h3>
+Programming Languages known:</h3>
+<ul>
+<li>C</li>
+<li>C++</li>
+<li>java</li>
+<li>php</li></ul></td></tr>
+<tr><td>Certifications and achievements:
+<ul>
+<li>presented a paper in GCT college on the topic digital India and won second prize</li>
+<li>presented a paper in EBET college on the topic hadoop</li>
+<li>attended workshop in CIT college on ethical hacking</li>
+<li>attended inplant training at code bind technologies and uniq technologies</li>
+<li> second prize in technical quiz</li>
+<li>won third prize in dance competition at EBET  college</li>
+</ul>
+</td></tr>
+<tr><td>Area of interest:Database management, programming and data structures</td></tr>
+<tr><td>personal details
+<ul>
+<li>Name:Priyadharshini G.</li>
+<li>Age:19</li>
+<li>sex:female</li>
+<li>date of birth:18.10.1997</li>
+<li>Father's Name:Mr.Govindarasu.S</li>
+<li>phone:**********</li>
+</ul>
+</table>
+</body>
+</html>
