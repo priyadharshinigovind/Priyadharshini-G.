@@ -6,24 +6,27 @@ printf("Enter limit, list of elements");
 scanf("%d",&l);
 for(i=0;i<l;i++)
 {
-scanf("%d",&l[i]);
+scanf("%d",&el[i]);
 }
-for(i=0;i<si;i++)
+for(i=0;i<l;i++)
 {
-for(j=i+1;j<size;j++)
+for(j=i+1;j<l;j++)
 {
-if(l[i]>l[j])
+if(l[i]<l[j])
 {
-min=l[j];
 j++;
 }
 else
 {
-min=l[i];
+temp=el[i];
+el[i]=el[j];
+el[j]=temp;
 j++;
 }
 }
 i++;
 }
-printf("the min is %d", min);
+for(i=0;i<l;i++)
+{  
+printf("%d", el[i]);
 }
