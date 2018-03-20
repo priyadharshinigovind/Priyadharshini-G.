@@ -1,10 +1,20 @@
 #include<stdio.h>
 void main()
 {
-char a;
+char a[100]; int i,flag=0;
 scanf("%s",&a);
-if(a=='0-9')
-printf("numeric");
+for(i=0;a[i]!='\0';i++)
+{
+if(a[i]>='0'&&a[i]<='9')
+flag=0;
 else
-pritf("numeric");
+{
+flag=1;
+break;
+}
+}
+if(flag==1)
+printf("\nnot numeric");
+else
+printf("numeric");
 }
